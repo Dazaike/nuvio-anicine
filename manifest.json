@@ -1,0 +1,20 @@
+{
+  "name": "AniCine",
+  "author": "local",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "anicine",
+      "name": "AniCine",
+      "description": "Movies, TV and anime from the embed hosts behind anicine.sbs (HLS up to 1080p, multi-audio, anime by MAL id). No cookie or setup needed.",
+      "version": "1.0.0",
+      "author": "local",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/anicine.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["en"],
+      "hasSettings": true
+    }
+  ]
+}

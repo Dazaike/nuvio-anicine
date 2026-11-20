@@ -1,0 +1,7 @@
+{
+  "name": "nuvio-anicine",
+  "private": true,
+  "description": "Nuvio plugin for the embed hosts behind anicine.sbs. crypto-js is only needed to run the tests (Nuvio provides it at runtime).",
+  "scripts": { "build": "node tools/build.js", "test": "node test/node-test.js" },
+  "devDependencies": { "crypto-js": "^4.2.0" }
+}
